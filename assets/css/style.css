@@ -124,7 +124,7 @@ section[id] { scroll-margin-top: 88px; }
     object-position: center;
     filter: none;
 }
-.card .frame { padding: 12px; }
+.card .frame { padding: 12px; aspect-ratio: 16 / 9; overflow: hidden; }
 .card-meta { display: flex; justify-content: space-between; color: var(--mute); }
 .card-title { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; border-bottom: 1px solid var(--line); padding-bottom: 14px; }
 .card-name { font-size: 24px; font-weight: 500; letter-spacing: -.03em; color: var(--acc); }
