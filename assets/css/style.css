@@ -117,10 +117,11 @@ section[id] { scroll-margin-top: 88px; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr)); gap: 44px 56px; }
 .card { background: none; border: 0; padding: 0; text-align: left; cursor: pointer; display: flex; flex-direction: column; gap: 14px; width: 100%; color: inherit; }
 .cover {
+    display: block;
     width: 100%;
-    height: auto;
-    aspect-ratio: auto;
-    object-fit: contain;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center;
     filter: none;
 }
 .card .frame { padding: 12px; }
